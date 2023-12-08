@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block contenido %}
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<form action='/usuarios/crear_cliente/' method="post">
+    {% csrf_token %}
+    <p> Nombre del cliente: <input type = "text" name="nombre">
+    <p> Email del cliente: <input type = "email" name="email">
+    <p> Edad: <input type = "number" name="edad">
+    <p> Fecha de ingreso <input type="datetime" name="fecha_ingreso">
+    <input type = "submit" value="Enviar">
+ </form>
+
+<br>
+<br>
+<br>
+<br>
+
+{% endblock %}
