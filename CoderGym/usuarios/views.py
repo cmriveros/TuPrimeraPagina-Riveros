@@ -1,7 +1,6 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render
 from usuarios.models import Cliente, Actividad, Asistencia
 from usuarios.forms import ClienteFormulario, ActividadesFormulario, AsistenciasFormulario
-from CoderGym.view import pag_principal
 
 # Create your views here.
 

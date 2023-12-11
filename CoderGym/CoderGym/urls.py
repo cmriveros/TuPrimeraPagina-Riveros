@@ -17,7 +17,6 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from CoderGym.view import pag_principal
-from usuarios.views import crear_cliente
 
 urlpatterns = [
     path('admin/', admin.site.urls),
