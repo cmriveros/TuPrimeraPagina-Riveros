@@ -22,5 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', pag_principal, name="Principal"),
     # URLs de apps:
-    path('usuarios/', include('usuarios.urls'),)
+    path('usuarios/', include('usuarios.urls')),
+    path('actividades/', include('actividades.urls')),
 ]

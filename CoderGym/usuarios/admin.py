@@ -1,7 +1,6 @@
 from django.contrib import admin
-from usuarios.models import Cliente, Actividad, Asistencia
+from usuarios.models import Cliente
 # Register your models here.
 
 admin.site.register(Cliente)
-admin.site.register(Actividad)
-admin.site.register(Asistencia)
+# admin.site.register(Asistencia)
